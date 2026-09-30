@@ -1,0 +1,9 @@
+{
+  "latest_version": "0.1.0+1",
+  "min_supported_version": "0.1.0",
+  "update_message": "",
+  "update_message_en": "",
+  "interstitial_grace_rounds": 3,
+  "interstitial_every_rounds": 3,
+  "nearby_search_radius_km": 30
+}
