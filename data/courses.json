@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-09-30",
+ "generated": "2026-10-01",
  "count": 360,
  "sources": [
   {
@@ -68,6 +68,24 @@
    "url": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGym/index.do?rsrc_no=HE13N1954946",
    "license": "공식 누리집 공개 정보(사실 정보)",
    "date": null
+  },
+  {
+   "title": "경기도 공식 누리집",
+   "url": "https://www.gimpo.go.kr/news/selectBbsNttView.do?key=9377&bbsNo=466&nttNo=988854",
+   "license": "공식 누리집 공개 정보(사실 정보)",
+   "date": "2026-09-04"
+  },
+  {
+   "title": "경기도 공식 누리집",
+   "url": "http://ostv.osan.go.kr/ostv/cast/viewer/board.do?key=47c8e038eb168a4eace9687f3f68df9df1f9c83edc8e75df5192d2522be05247db8930ecb365ab63",
+   "license": "공식 누리집 공개 정보(사실 정보)",
+   "date": null
+  },
+  {
+   "title": "경기도 공식 누리집",
+   "url": "https://share.gg.go.kr/sports?pageStep=sports&searchType=S1",
+   "license": "공식 누리집 공개 정보(사실 정보)",
+   "date": "2026-09-30"
   },
   {
    "title": "경기도 안산시_공공체육시설정보",
@@ -282,6 +300,12 @@
   {
    "title": "충청남도 공식 누리집",
    "url": "https://www.taean.go.kr/tour/sub04_09_03.do",
+   "license": "공식 누리집 공개 정보(사실 정보)",
+   "date": "2026-09-30"
+  },
+  {
+   "title": "충청남도 공식 누리집",
+   "url": "https://www.seocheon.go.kr/kor/sub06_08_05_04.do",
    "license": "공식 누리집 공개 정보(사실 정보)",
    "date": "2026-09-30"
   },
@@ -691,6 +715,7 @@
    "hours": "08:00~17:00",
    "closed": "월",
    "reservation": "방문 사용",
+   "reservationUrl": "https://rev.cuc.or.kr/www/58",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -698,7 +723,12 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-06-01"
    },
-   "id": "강원소양강파크골프장"
+   "id": "강원소양강파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://rev.cuc.or.kr/www/58",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "속초 파크골프장",
@@ -1004,7 +1034,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250307"
    },
-   "id": "강원행구수변공원파크골프장"
+   "id": "강원행구수변공원파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.wonju.go.kr/www/selectBbsNttView.do?bbsNo=145&nttNo=411201&key=222",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "홍천 강변 파크골프장",
@@ -1036,6 +1071,7 @@
    "hours": "09:00~18:00",
    "closed": "매주 월요일",
    "reservation": "온라인",
+   "reservationUrl": "https://www.gpfmc.or.kr/page/selectPage.do?stNo=11&muNo=700",
    "coordSource": "dataset",
    "source": {
     "title": "가평군시설관리공단_가평파크골프장",
@@ -1043,7 +1079,17 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260721"
    },
-   "id": "경기가평파크골프장"
+   "id": "경기가평파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 25일 13:00 다음 달 1~15일분·매월 10일 13:00 16일~말일분 예약 오픈",
+    "day": 25,
+    "time": "13:00"
+   },
+   "bookingSource": {
+    "url": "https://www.gpfmc.or.kr/board/facView.do?muNo=476&postNo=42324",
+    "date": "2026-04-06"
+   }
   },
   {
    "name": "금천천파크골프장",
@@ -1056,6 +1102,7 @@
    "hours": "09:00~18:00",
    "closed": "월요일, 설연휴(대체공휴일미포함), 추석연휴(대체공휴일미포함)",
    "reservation": "온라인예약",
+   "reservationUrl": "https://www.uiwang.go.kr/reserve/spt/S02/sportView.do?resrId=UUC022373",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -1063,7 +1110,12 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-11-07"
    },
-   "id": "경기금천천파크골프장"
+   "id": "경기금천천파크골프장",
+   "booking": "reserve",
+   "bookingSource": {
+    "url": "https://www.uiwang.go.kr/reserve/spt/S02/sportView.do?resrId=UUC022373",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "기형도문화공원 파크골프장",
@@ -1089,6 +1141,7 @@
    "city": "용인시",
    "lat": 37.24971079119638,
    "lng": 127.09057551870546,
+   "reservationUrl": "https://publicsports.yongin.go.kr/publicsports/sports/index.do",
    "coordSource": "vworld:road",
    "source": {
     "title": "경기도 공식 누리집",
@@ -1096,7 +1149,17 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": "2026-09-30"
    },
-   "id": "경기기흥호수공원파크골프장"
+   "id": "경기기흥호수공원파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 18일 09:00 다음 달분 용인시민 외 온라인 선착순 예약(용인시민은 현장 선착순)",
+    "day": 18,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://publicsports.yongin.go.kr/publicsports/sports/selectFcltyRceptResveViewU.do?key=4236&resveId=14294",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "나리공원 파크골프장",
@@ -1155,7 +1218,7 @@
    "holes": 36,
    "lat": 37.39932263914835,
    "lng": 127.54518642867319,
-   "reservationUrl": "https://golf.yeojuuc.or.kr/",
+   "reservationUrl": "https://yeojuuc.or.kr/reservation/yjpg",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "경기도 공식 누리집",
@@ -1163,7 +1226,16 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": "2026-09-30"
    },
-   "id": "경기대신파크골프장"
+   "id": "경기대신파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "관외자: 이용일 7일 전 온라인 선착순 예약(관내자는 예약 없이 현장 선착순)",
+    "daysBefore": 7
+   },
+   "bookingSource": {
+    "url": "https://yeojuuc.or.kr/reservation/yjpg",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "별내동 체육공원 파크골프장",
@@ -1210,7 +1282,7 @@
    "hours": "하절기:6:00~19:00/동절기:7:00~18:00",
    "closed": "매주 월요일",
    "reservation": "온라인/현장",
-   "reservationUrl": "https://www.2000fmc.or.kr/reservation3/sports/icsp/reservation/P82468384/parkgolf?gateToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJFTlRFUklOR19UT0tFTiIsImV4cCI6MTc4NDU5NDAyNSwiVE9LRU5fSUQiOiI0MzhjMTYwNjc0OTk0OWMzOGIwMzkwM2ZjY2E5N2UwNiIsIkdST1VQX0lEIjoiNjlmNzU5ODM4ZWE4NTM0YzRkODY5NjNhIn0.Ae0bPzcgad2ljTAkv1MWe_GS0jOd29girPd7nS1NoQg",
+   "reservationUrl": "https://www.2000fmc.or.kr/reservation3/sports",
    "coordSource": "dataset",
    "source": {
     "title": "이천시시설관리공단_파크골프장 표준데이터",
@@ -1218,7 +1290,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260724"
    },
-   "id": "경기북부체육공원"
+   "id": "경기북부체육공원",
+   "booking": "reserve",
+   "bookingSource": {
+    "url": "https://www.2000fmc.or.kr/ic-kr/cntnts/i-203/web.do",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "사직파크골프장",
@@ -1271,7 +1348,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-08-14"
    },
-   "id": "경기성남시파크골프장A"
+   "id": "경기성남시파크골프장A",
+   "booking": "walkin"
   },
   {
    "name": "성남시 파크골프장B∙C",
@@ -1292,7 +1370,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-08-14"
    },
-   "id": "경기성남시파크골프장BC"
+   "id": "경기성남시파크골프장BC",
+   "booking": "walkin"
   },
   {
    "name": "성저파크골프장",
@@ -1314,7 +1393,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-03-31"
    },
-   "id": "경기성저파크골프장"
+   "id": "경기성저파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "송내파크골프장",
@@ -1334,7 +1414,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-05-06"
    },
-   "id": "경기송내파크골프장"
+   "id": "경기송내파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "신길파크골프장",
@@ -1372,7 +1453,12 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-06-17"
    },
-   "id": "경기심학산파크골프장"
+   "id": "경기심학산파크골프장",
+   "booking": "reserve",
+   "bookingSource": {
+    "url": "https://www.paju.go.kr/www/paticipation/paticipation_04/paticipation_04_04/paticipation_04_04_01.jsp",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "아천동 파크골프장",
@@ -1422,7 +1508,12 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": "2026-09-30"
    },
-   "id": "경기양평파크골프장"
+   "id": "경기양평파크골프장",
+   "booking": "lottery",
+   "bookingSource": {
+    "url": "https://www.yp21.go.kr/www/contents.do?key=3879",
+    "date": "2026-06-17"
+   }
   },
   {
    "name": "연천파크골프장",
@@ -1444,7 +1535,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-06-17"
    },
-   "id": "경기연천파크골프장"
+   "id": "경기연천파크골프장",
+   "booking": "reserve"
   },
   {
    "name": "오학파크골프장",
@@ -1458,7 +1550,7 @@
    "hours": "09:00~18:00",
    "closed": "화요일, 설 추석 연휴",
    "reservation": "방문",
-   "reservationUrl": "https://www.yeoju.go.kr/sports/",
+   "reservationUrl": "https://yeojuuc.or.kr/reservation/yjpg",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -1466,7 +1558,16 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-18"
    },
-   "id": "경기오학파크골프장"
+   "id": "경기오학파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "관외자: 이용일 7일 전 온라인 선착순 예약(관내자는 예약 없이 현장 선착순)",
+    "daysBefore": 7
+   },
+   "bookingSource": {
+    "url": "https://yeojuuc.or.kr/reservation/yjpg",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "운정파크골프장",
@@ -1487,7 +1588,12 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-06-17"
    },
-   "id": "경기운정파크골프장"
+   "id": "경기운정파크골프장",
+   "booking": "reserve",
+   "bookingSource": {
+    "url": "https://www.paju.go.kr/www/paticipation/paticipation_04/paticipation_04_04/paticipation_04_04_01.jsp",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "인창동 파크골프장",
@@ -1525,7 +1631,8 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260714"
    },
-   "id": "경기재인폭포파크골프장"
+   "id": "경기재인폭포파크골프장",
+   "booking": "reserve"
   },
   {
    "name": "점동파크골프장",
@@ -1539,7 +1646,7 @@
    "hours": "09:00~18:00",
    "closed": "월요일, 설 추석 연휴",
    "reservation": "방문",
-   "reservationUrl": "https://www.yeoju.go.kr/sports/",
+   "reservationUrl": "https://yeojuuc.or.kr/reservation/yjpg",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -1547,7 +1654,16 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-18"
    },
-   "id": "경기점동파크골프장"
+   "id": "경기점동파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "관외자: 이용일 7일 전 온라인 선착순 예약(관내자는 예약 없이 현장 선착순)",
+    "daysBefore": 7
+   },
+   "bookingSource": {
+    "url": "https://yeojuuc.or.kr/reservation/yjpg",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "정발산파크골프장",
@@ -1569,7 +1685,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-03-31"
    },
-   "id": "경기정발산파크골프장"
+   "id": "경기정발산파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "조안면 파크골프장",
@@ -1633,6 +1750,7 @@
    "hours": "평일 07:00~18:00 · 주말 09:00~18:00",
    "closed": "화요일",
    "reservation": "방문, 전화",
+   "reservationUrl": "https://publicsports.yongin.go.kr/publicsports/sports/index.do",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -1640,7 +1758,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-06-30"
    },
-   "id": "경기포곡파크골프장"
+   "id": "경기포곡파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 18일 09:00 다음 달분 용인시민 외 온라인 선착순 예약(주말·공휴일이면 다음 날); 용인시민은 현장 선착순",
+    "day": 18,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://publicsports.yongin.go.kr/publicsports/sports/selectFcltyRceptResveViewU.do?key=4236&resveId=14507",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "화정파크골프장",
@@ -1662,7 +1790,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-03-31"
    },
-   "id": "경기화정파크골프장"
+   "id": "경기화정파크골프장",
+   "booking": "reserve"
   },
   {
    "name": "가곡파크골프장",
@@ -1675,6 +1804,7 @@
    "hours": "07:00~19:00",
    "closed": "월요일, 명절연휴, 선거일, 근로자의날",
    "reservation": "온라인 예약, 현장 신청",
+   "reservationUrl": "https://yeyak.miryang.go.kr/yeyak/",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -1682,7 +1812,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-12-22"
    },
-   "id": "경남가곡파크골프장"
+   "id": "경남가곡파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 넷째 주 목요일 다음 달 예약 오픈 (시각은 예약 페이지 공지)",
+    "weekday": 4,
+    "nthWeek": 4
+   },
+   "bookingSource": {
+    "url": "https://yeyak.miryang.go.kr/yeyak/00001/00044/00064.web",
+    "date": "2023-12-20"
+   }
   },
   {
    "name": "가북면 파크골프장",
@@ -1712,7 +1852,7 @@
    "hours": "07:00~19:00",
    "closed": "화, 설 연휴, 추석 연휴",
    "reservation": "인터넷 접수, 방문 접수",
-   "reservationUrl": "https://www.yssisul.or.kr",
+   "reservationUrl": "https://www.yssisul.or.kr/parkgolf/",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -1720,7 +1860,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-08-14"
    },
-   "id": "경남가산공원파크골프장"
+   "id": "경남가산공원파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 25일 10:00 다음 달 예약 오픈(관외 거주자 기준)",
+    "day": 25,
+    "time": "10:00"
+   },
+   "bookingSource": {
+    "url": "https://www.yssisul.or.kr/parkgolf/html/sub0201.jsp",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "가야진사공원 파크골프장",
@@ -1733,7 +1883,7 @@
    "hours": "07:00~19:00",
    "closed": "월, 설 연휴, 추석 연휴",
    "reservation": "인터넷 접수",
-   "reservationUrl": "https://www.yssisul.or.kr",
+   "reservationUrl": "https://www.yssisul.or.kr/parkgolf/",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -1741,7 +1891,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-08-14"
    },
-   "id": "경남가야진사공원파크골프장"
+   "id": "경남가야진사공원파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 25일 10:00 다음 달 예약 오픈(관외 거주자 기준)",
+    "day": 25,
+    "time": "10:00"
+   },
+   "bookingSource": {
+    "url": "https://www.yssisul.or.kr/parkgolf/html/sub0201.jsp",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "가조면 파크골프장 1구장",
@@ -1831,7 +1991,8 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260811"
    },
-   "id": "경남거창스포츠파크파크골프장1구장"
+   "id": "경남거창스포츠파크파크골프장1구장",
+   "booking": "walkin"
   },
   {
    "name": "거창스포츠파크 파크골프장 2구장",
@@ -1902,7 +2063,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-02-26"
    },
-   "id": "경남구우진항임시파크골프장"
+   "id": "경남구우진항임시파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "금산와룡지구 생활체육시설 파크골프장",
@@ -1923,7 +2085,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-16"
    },
-   "id": "경남금산와룡지구생활체육시설파크골프장"
+   "id": "경남금산와룡지구생활체육시설파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 15일 12:00 다음 달 예약 오픈(관외만 예약)",
+    "day": 15,
+    "time": "12:00"
+   },
+   "bookingSource": {
+    "url": "https://www.jinju.go.kr/yeyak/08871/10294/10298.web",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "내동유수 파크골프장",
@@ -1944,7 +2116,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-16"
    },
-   "id": "경남내동유수파크골프장"
+   "id": "경남내동유수파크골프장",
+   "booking": "reserve"
   },
   {
    "name": "대곡 파크골프장",
@@ -1964,7 +2137,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-16"
    },
-   "id": "경남대곡파크골프장"
+   "id": "경남대곡파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "대산면 파크골프장",
@@ -1974,6 +2148,7 @@
    "holes": 90,
    "lat": 35.35261403388591,
    "lng": 128.72066825448672,
+   "reservationUrl": "https://reserve.cwsisul.or.kr/",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "경상남도 공식 누리집",
@@ -1981,7 +2156,17 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": "2024-11-11"
    },
-   "id": "경남대산면파크골프장"
+   "id": "경남대산면파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 20일 09:00 다음 달 예약 오픈(관외 거주자, 전날 17시 마감)",
+    "day": 20,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://www.cwsisul.or.kr/_daesanpark/_sub01/sub01_01.html",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "동부5개면 파크골프장",
@@ -2002,7 +2187,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-16"
    },
-   "id": "경남동부5개면파크골프장"
+   "id": "경남동부5개면파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 15일 12:00 다음 달 예약 오픈(관외만 예약)",
+    "day": 15,
+    "time": "12:00"
+   },
+   "bookingSource": {
+    "url": "https://www.jinju.go.kr/yeyak/08871/10294/10297.web",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "동부양산파크골프장",
@@ -2015,7 +2210,7 @@
    "hours": "09:00~18:00",
    "closed": "매주 월요일, 설 연휴, 추석 연휴",
    "reservation": "인터넷 접수, 방문 접수",
-   "reservationUrl": "http://www.yssisul.or.kr/",
+   "reservationUrl": "https://www.yssisul.or.kr/parkgolf/",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -2023,7 +2218,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-08-14"
    },
-   "id": "경남동부양산파크골프장"
+   "id": "경남동부양산파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 25일 10:00 다음 달 예약 오픈(관외 거주자 기준)",
+    "day": 25,
+    "time": "10:00"
+   },
+   "bookingSource": {
+    "url": "https://www.yssisul.or.kr/parkgolf/html/sub0201.jsp",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "무안파크골프장",
@@ -2036,6 +2241,7 @@
    "hours": "07:00~19:00",
    "closed": "월요일, 명절연휴, 선거일, 근로자의날",
    "reservation": "온라인 예약, 현장 신청",
+   "reservationUrl": "https://yeyak.miryang.go.kr/yeyak/",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -2043,7 +2249,15 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-12-22"
    },
-   "id": "경남무안파크골프장"
+   "id": "경남무안파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "월 단위로 다음 달 예약 접수 — 시작일은 예약 페이지 공지"
+   },
+   "bookingSource": {
+    "url": "https://yeyak.miryang.go.kr/yeyak/00001/00044/00135.web",
+    "date": "2023-12-20"
+   }
   },
   {
    "name": "북면장애인 파크골프장",
@@ -2080,7 +2294,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-02-26"
    },
-   "id": "경남사천우주항공파크골프장"
+   "id": "경남사천우주항공파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "삼랑진파크골프장",
@@ -2093,6 +2308,7 @@
    "hours": "07:00~19:00",
    "closed": "월요일, 명절연휴, 선거일, 근로자의날",
    "reservation": "온라인 예약, 현장 신청",
+   "reservationUrl": "https://yeyak.miryang.go.kr/yeyak/",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -2100,7 +2316,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-12-22"
    },
-   "id": "경남삼랑진파크골프장"
+   "id": "경남삼랑진파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 넷째 주 화요일 다음 달 예약 오픈 (시각은 예약 페이지 공지)",
+    "weekday": 2,
+    "nthWeek": 4
+   },
+   "bookingSource": {
+    "url": "https://yeyak.miryang.go.kr/yeyak/00001/00044/00066.web",
+    "date": "2025-11-24"
+   }
   },
   {
    "name": "삼문동 밀양파크골프장",
@@ -2113,6 +2339,7 @@
    "hours": "07:00~19:00",
    "closed": "월요일, 명절연휴, 선거일, 근로자의날",
    "reservation": "온라인 예약, 현장 신청",
+   "reservationUrl": "https://yeyak.miryang.go.kr/yeyak/",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -2120,7 +2347,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-12-22"
    },
-   "id": "경남삼문동밀양파크골프장"
+   "id": "경남삼문동밀양파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 넷째 주 월요일 다음 달 예약 오픈 (시각은 예약 페이지 공지)",
+    "weekday": 1,
+    "nthWeek": 4
+   },
+   "bookingSource": {
+    "url": "https://yeyak.miryang.go.kr/yeyak/00001/00044/00063.web",
+    "date": "2025-11-24"
+   }
   },
   {
    "name": "상평지구 파크골프장",
@@ -2140,7 +2377,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-16"
    },
-   "id": "경남상평지구파크골프장"
+   "id": "경남상평지구파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "송백리어르신체육시설 파크골프장",
@@ -2161,7 +2399,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-16"
    },
-   "id": "경남송백리어르신체육시설파크골프장"
+   "id": "경남송백리어르신체육시설파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 15일 12:00 다음 달 예약 오픈(관외만 예약)",
+    "day": 15,
+    "time": "12:00"
+   },
+   "bookingSource": {
+    "url": "https://www.jinju.go.kr/yeyak/08871/10294/10295.web",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "신원면 파크골프장",
@@ -2267,7 +2515,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-16"
    },
-   "id": "경남정촌파크골프장"
+   "id": "경남정촌파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 15일 12:00 다음 달 예약 오픈(관외만 예약)",
+    "day": 15,
+    "time": "12:00"
+   },
+   "bookingSource": {
+    "url": "https://www.jinju.go.kr/yeyak/08871/10294/10296.web",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "제2창포원 파크골프장",
@@ -2288,7 +2546,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-05-26"
    },
-   "id": "경남제2창포원파크골프장"
+   "id": "경남제2창포원파크골프장",
+   "booking": "reserve"
   },
   {
    "name": "조만강장애인파크골프장",
@@ -2305,7 +2564,12 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": null
    },
-   "id": "경남조만강장애인파크골프장"
+   "id": "경남조만강장애인파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.gimhae.go.kr/yes/05561/05633/05980.web?amode=view&idx=999&fcd=L003",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "조만강파크골프장",
@@ -2378,7 +2642,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-16"
    },
-   "id": "경남지수면파크골프장"
+   "id": "경남지수면파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "진주종합경기장 파크골프장",
@@ -2398,7 +2663,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-16"
    },
-   "id": "경남진주종합경기장파크골프장"
+   "id": "경남진주종합경기장파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "창녕낙동강파크골프장",
@@ -2411,7 +2677,7 @@
    "hours": "08:00~17:00",
    "closed": "월, 법정공휴일",
    "reservation": "예약시스템(관외), 방문(관내)",
-   "reservationUrl": "https://cfmc.kr/sub.html?code=03_23&Radd=03_23",
+   "reservationUrl": "https://cfmc.kr/golf/",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -2419,7 +2685,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-05-19"
    },
-   "id": "경남창녕낙동강파크골프장"
+   "id": "경남창녕낙동강파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 화요일 13:00 다음 주 예약 오픈(타 시군 주민)",
+    "weekday": 2,
+    "time": "13:00"
+   },
+   "bookingSource": {
+    "url": "https://cfmc.kr/golf/",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "초전지구 파크골프장",
@@ -2439,7 +2715,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-16"
    },
-   "id": "경남초전지구파크골프장"
+   "id": "경남초전지구파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "칠산파크골프장",
@@ -2456,7 +2733,12 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": null
    },
-   "id": "경남칠산파크골프장"
+   "id": "경남칠산파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.gimhae.go.kr/yes/05561/05633/05981.web?amode=view&idx=997&fcd=L004",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "칠암강변 둔치 파크골프장",
@@ -2476,7 +2758,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-16"
    },
-   "id": "경남칠암강변둔치파크골프장"
+   "id": "경남칠암강변둔치파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "평거동 강변둔치 파크골프장",
@@ -2496,7 +2779,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-16"
    },
-   "id": "경남평거동강변둔치파크골프장"
+   "id": "경남평거동강변둔치파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "풍호공원 파크골프장",
@@ -2526,6 +2810,7 @@
    "hours": "07:00~19:00",
    "closed": "월요일, 명절연휴, 선거일, 근로자의날",
    "reservation": "온라인 예약, 현장 신청",
+   "reservationUrl": "https://yeyak.miryang.go.kr/yeyak/",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -2533,7 +2818,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-12-22"
    },
-   "id": "경남하남파크골프장"
+   "id": "경남하남파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 넷째 주 수요일 다음 달 예약 오픈 (시각은 예약 페이지 공지)",
+    "weekday": 3,
+    "nthWeek": 4
+   },
+   "bookingSource": {
+    "url": "https://yeyak.miryang.go.kr/yeyak/00001/00044/00065.web",
+    "date": "2025-11-24"
+   }
   },
   {
    "name": "하대둔치 생활체육시설 파크골프장",
@@ -2553,7 +2848,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-16"
    },
-   "id": "경남하대둔치생활체육시설파크골프장"
+   "id": "경남하대둔치생활체육시설파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "한림술뫼파크골프장",
@@ -2563,6 +2859,7 @@
    "holes": 18,
    "lat": 35.338580882502214,
    "lng": 128.77500050453955,
+   "reservationUrl": "https://www.gimhae.go.kr/yes/05561/05633/05688.web",
    "coordSource": "vworld:road",
    "source": {
     "title": "경상남도 공식 누리집",
@@ -2570,7 +2867,17 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": null
    },
-   "id": "경남한림술뫼파크골프장"
+   "id": "경남한림술뫼파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 화요일 14:00 타 시·군 주민 온라인 예약 오픈(주 단위, 화~일 이용분)",
+    "weekday": 2,
+    "time": "14:00"
+   },
+   "bookingSource": {
+    "url": "https://www.gimhae.go.kr/yes/05561/05633/05688.web?amode=view&idx=1000&fcd=L002",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "한림시산파크골프장",
@@ -2616,7 +2923,7 @@
    "hours": "07:00~19:00",
    "closed": "월(1구장), 목(2구장), 설 연휴, 추석 연휴",
    "reservation": "인터넷 접수, 방문 접수",
-   "reservationUrl": "https://www.yssisul.or.kr",
+   "reservationUrl": "https://www.yssisul.or.kr/parkgolf/",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -2624,7 +2931,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-08-14"
    },
-   "id": "경남황산공원파크골프장12구장"
+   "id": "경남황산공원파크골프장12구장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 25일 10:00 다음 달 예약 오픈(관외 거주자 기준)",
+    "day": 25,
+    "time": "10:00"
+   },
+   "bookingSource": {
+    "url": "https://www.yssisul.or.kr/parkgolf/html/sub0201.jsp",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "가천파크골프장",
@@ -2668,6 +2985,7 @@
    "holes": 36,
    "lat": 36.55140419100486,
    "lng": 128.75051647785446,
+   "reservationUrl": "https://www.andong.go.kr/adsports/reservation/main.do",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "경상북도_파크골프장 현황",
@@ -2675,7 +2993,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250310"
    },
-   "id": "경북강남파크골프장"
+   "id": "경북강남파크골프장",
+   "booking": "member",
+   "bookingSource": {
+    "url": "https://www.andong.go.kr/adsports/reservation/info/usage.do",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "경산파크골프장",
@@ -2685,6 +3008,7 @@
    "holes": 18,
    "lat": 35.84139157317683,
    "lng": 128.72778911198503,
+   "reservationUrl": "https://www.gbgs.go.kr/open_content/sportslife/page.do?mnu_uid=6412&code_uid=9",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "경상북도_파크골프장 현황",
@@ -2692,7 +3016,16 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250310"
    },
-   "id": "경북경산파크골프장"
+   "id": "경북경산파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "이용일 2주 전부터 인터넷 예약(당일 기준 2주간 오픈, 관외 이용자)",
+    "daysBefore": 14
+   },
+   "bookingSource": {
+    "url": "https://www.gbgs.go.kr/open_content/sportslife/page.do?mnu_uid=6412&code_uid=9",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "경주파크골프1구장",
@@ -2714,7 +3047,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260727"
    },
-   "id": "경북경주파크골프1구장"
+   "id": "경북경주파크골프1구장",
+   "booking": "reserve",
+   "bookingSource": {
+    "url": "https://www.gyeongju.go.kr/reserve/exp_facilities/facility_view.jsp?mem_id=B0000042&item_id=E0000009",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "경주파크골프2구장",
@@ -2736,7 +3074,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260727"
    },
-   "id": "경북경주파크골프2구장"
+   "id": "경북경주파크골프2구장",
+   "booking": "reserve",
+   "bookingSource": {
+    "url": "https://www.gyeongju.go.kr/reserve/exp_facilities/facility_view.jsp?mem_id=B0000042&item_id=E0000010",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "고래불 비치파크골프장",
@@ -2757,7 +3100,12 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-08-06"
    },
-   "id": "경북고래불비치파크골프장"
+   "id": "경북고래불비치파크골프장",
+   "booking": "reserve",
+   "bookingSource": {
+    "url": "https://stay.yd.go.kr/ydyeyak/reservation/?fidx=16&gtype=11",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "고아파크골프장",
@@ -2769,6 +3117,7 @@
    "fee": "무료",
    "hours": "08:30~17:30",
    "closed": "1월1일, 설 당일, 추석 당일",
+   "reservationUrl": "https://www.gumi.go.kr/reservation/www/index.do",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -2776,7 +3125,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-12-01"
    },
-   "id": "경북고아파크골프장"
+   "id": "경북고아파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 월요일 09:00 예약 오픈(차주 일요일 이용분까지, 관외 거주자)",
+    "weekday": 1,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://www.gumi.go.kr/life/contents.do?mid=0306000000",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "곡강파크골프장",
@@ -2798,7 +3157,15 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-06-25"
    },
-   "id": "경북곡강파크골프장"
+   "id": "경북곡강파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "타 지역·야간 이용자는 이용일 최소 7일 전까지 전화 예약(포항시민은 현장 선착순)"
+   },
+   "bookingSource": {
+    "url": "https://www.phsisul.org/sisul_5/sub/info_4.do",
+    "date": "2024-03-19"
+   }
   },
   {
    "name": "구미파크골프장",
@@ -2811,6 +3178,7 @@
    "fee": "무료",
    "hours": "08:30~17:30",
    "closed": "1월1일, 설 당일, 추석 당일",
+   "reservationUrl": "https://www.gumi.go.kr/reservation/www/index.do",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -2818,7 +3186,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-12-01"
    },
-   "id": "경북구미파크골프장"
+   "id": "경북구미파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 월요일 09:00 예약 오픈(차주 일요일 이용분까지, 관외 거주자)",
+    "weekday": 1,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://www.gumi.go.kr/life/contents.do?mid=0306000000",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "남경주파크골프장",
@@ -2950,6 +3328,7 @@
    "fee": "무료",
    "hours": "08:30~17:30",
    "closed": "1월1일, 설 당일, 추석 당일",
+   "reservationUrl": "https://www.gumi.go.kr/reservation/www/index.do",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -2957,7 +3336,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-12-01"
    },
-   "id": "경북도개파크골프장"
+   "id": "경북도개파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 월요일 09:00 예약 오픈(차주 일요일 이용분까지, 관외 거주자)",
+    "weekday": 1,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://www.gumi.go.kr/life/contents.do?mid=0306000000",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "동경주파크골프장",
@@ -2987,6 +3376,7 @@
    "fee": "무료",
    "hours": "08:30~17:30",
    "closed": "1월1일, 설 당일, 추석 당일",
+   "reservationUrl": "https://www.gumi.go.kr/reservation/www/index.do",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -2994,7 +3384,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-12-01"
    },
-   "id": "경북동락파크골프장"
+   "id": "경북동락파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 월요일 09:00 예약 오픈(차주 일요일 이용분까지, 관외 거주자)",
+    "weekday": 1,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://www.gumi.go.kr/life/contents.do?mid=0306000000",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "동로면 황장산 파크골프장",
@@ -3177,6 +3577,7 @@
    "fee": "무료",
    "hours": "08:30~17:30",
    "closed": "1월1일, 설 당일, 추석 당일",
+   "reservationUrl": "https://www.gumi.go.kr/reservation/www/index.do",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -3184,7 +3585,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-12-01"
    },
-   "id": "경북선산파크골프장"
+   "id": "경북선산파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 월요일 09:00 예약 오픈(차주 일요일 이용분까지, 관외 거주자)",
+    "weekday": 1,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://www.gumi.go.kr/life/contents.do?mid=0306000000",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "성주파크골프장",
@@ -3222,7 +3633,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-08-06"
    },
-   "id": "경북송천파크골프장"
+   "id": "경북송천파크골프장",
+   "booking": "reserve"
   },
   {
    "name": "송천파크골프장",
@@ -3315,7 +3727,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260727"
    },
-   "id": "경북알천파크골프장"
+   "id": "경북알천파크골프장",
+   "booking": "reserve",
+   "bookingSource": {
+    "url": "https://www.gyeongju.go.kr/reserve/exp_facilities/facility_view.jsp?mem_id=B0000042&item_id=E0000011",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "양호파크골프장",
@@ -3328,6 +3745,7 @@
    "fee": "무료",
    "hours": "08:30~17:30",
    "closed": "1월1일, 설 당일, 추석 당일",
+   "reservationUrl": "https://www.gumi.go.kr/reservation/www/index.do",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -3335,7 +3753,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-12-01"
    },
-   "id": "경북양호파크골프장"
+   "id": "경북양호파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 월요일 09:00 예약 오픈(차주 일요일 이용분까지, 관외 거주자)",
+    "weekday": 1,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://www.gumi.go.kr/life/contents.do?mid=0306000000",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "영강천변 파크골프장",
@@ -3356,7 +3784,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-12-24"
    },
-   "id": "경북영강천변파크골프장"
+   "id": "경북영강천변파크골프장",
+   "booking": "reserve"
   },
   {
    "name": "영강천변파크골프장",
@@ -3446,7 +3875,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-08-06"
    },
-   "id": "경북오십천파크골프장"
+   "id": "경북오십천파크골프장",
+   "booking": "reserve"
   },
   {
    "name": "옥동파크골프장",
@@ -3473,6 +3903,7 @@
    "holes": 18,
    "lat": 36.30761170963841,
    "lng": 128.29932127510818,
+   "reservationUrl": "https://www.gumi.go.kr/reservation/www/index.do",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "경상북도_파크골프장 현황",
@@ -3480,7 +3911,17 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250310"
    },
-   "id": "경북옥성파크골프장"
+   "id": "경북옥성파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 월요일 09:00 예약 오픈(차주 일요일 이용분까지, 관외 거주자)",
+    "weekday": 1,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://www.gumi.go.kr/life/contents.do?mid=0306000000",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "왜관파크골프장",
@@ -3558,6 +3999,7 @@
    "holes": 18,
    "lat": 36.12947503763247,
    "lng": 128.34120267274227,
+   "reservationUrl": "https://www.gumi.go.kr/reservation/www/index.do",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "경상북도_파크골프장 현황",
@@ -3565,7 +4007,17 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250310"
    },
-   "id": "경북장애인파크골프장"
+   "id": "경북장애인파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 월요일 09:00 예약 오픈(차주 일요일 이용분까지, 관외 거주자)",
+    "weekday": 1,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://www.gumi.go.kr/life/contents.do?mid=0306000000",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "장애인파크골프장",
@@ -3609,6 +4061,7 @@
    "holes": 36,
    "lat": 35.96813708280108,
    "lng": 128.96602804963646,
+   "reservationUrl": "https://www.yc.go.kr/yeyak/contents.do?mId=0204040000",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "경상북도_파크골프장 현황",
@@ -3616,7 +4069,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250310"
    },
-   "id": "경북조교파크골프장"
+   "id": "경북조교파크골프장",
+   "booking": "reserve",
+   "bookingSource": {
+    "url": "https://www.yc.go.kr/yeyak/contents.do?mId=0204010000",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "지곡파크골프장",
@@ -3694,6 +4152,7 @@
    "holes": 27,
    "lat": 35.89246045678736,
    "lng": 128.79231970338674,
+   "reservationUrl": "https://www.gbgs.go.kr/open_content/sportslife/page.do?mnu_uid=6412&code_uid=9",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "경상북도_파크골프장 현황",
@@ -3701,7 +4160,16 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250310"
    },
-   "id": "경북하양물빛파크골프장"
+   "id": "경북하양물빛파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "이용일 2주 전부터 인터넷 예약(당일 기준 2주간 오픈, 관외 이용자)",
+    "daysBefore": 14
+   },
+   "bookingSource": {
+    "url": "https://www.gbgs.go.kr/open_content/sportslife/page.do?mnu_uid=6412&code_uid=9",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "하양파크골프장",
@@ -3711,6 +4179,7 @@
    "holes": 18,
    "lat": 35.910292019436554,
    "lng": 128.83426391967782,
+   "reservationUrl": "https://www.gbgs.go.kr/open_content/sportslife/page.do?mnu_uid=6412&code_uid=9",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "경상북도_파크골프장 현황",
@@ -3718,7 +4187,16 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250310"
    },
-   "id": "경북하양파크골프장"
+   "id": "경북하양파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "이용일 2주 전부터 인터넷 예약(당일 기준 2주간 오픈, 관외 이용자)",
+    "daysBefore": 14
+   },
+   "bookingSource": {
+    "url": "https://www.gbgs.go.kr/open_content/sportslife/page.do?mnu_uid=6412&code_uid=9",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "해평파크골프장",
@@ -3731,6 +4209,7 @@
    "fee": "무료",
    "hours": "08:30~17:30",
    "closed": "1월1일, 설 당일, 추석 당일",
+   "reservationUrl": "https://www.gumi.go.kr/reservation/www/index.do",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -3738,7 +4217,17 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-12-01"
    },
-   "id": "경북해평파크골프장"
+   "id": "경북해평파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 월요일 09:00 예약 오픈(차주 일요일 이용분까지, 관외 거주자)",
+    "weekday": 1,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://www.gumi.go.kr/life/contents.do?mid=0306000000",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "형산강파크골프장",
@@ -3755,7 +4244,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250310"
    },
-   "id": "경북형산강파크골프장"
+   "id": "경북형산강파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.phsisul.org/sisul_35/sub/info_1.do",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "가창 파크골프장",
@@ -3772,7 +4266,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260715"
    },
-   "id": "대구가창파크골프장"
+   "id": "대구가창파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.dssiseol.or.kr/pages/sisul/page.html?mc=1391",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "강변파크골프장(A, B구장)",
@@ -3807,7 +4306,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260824"
    },
-   "id": "대구검단파크골프장"
+   "id": "대구검단파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.buk.daegu.kr/tour/index.do?menu_id=00004261",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "구지 평촌 파크골프장",
@@ -3824,7 +4328,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260715"
    },
-   "id": "대구구지평촌파크골프장"
+   "id": "대구구지평촌파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.dssiseol.or.kr/pages/sisul/page.html?mc=1391",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "금호파크골프장",
@@ -3841,7 +4350,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260824"
    },
-   "id": "대구금호파크골프장"
+   "id": "대구금호파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.buk.daegu.kr/tour/index.do?menu_id=00004261",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "논공 달성보 파크골프장",
@@ -3858,7 +4372,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260715"
    },
-   "id": "대구논공달성보파크골프장"
+   "id": "대구논공달성보파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.dssiseol.or.kr/pages/sisul/page.html?mc=1391",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "논공 위천 파크골프장",
@@ -3875,7 +4394,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260715"
    },
-   "id": "대구논공위천파크골프장"
+   "id": "대구논공위천파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.dssiseol.or.kr/pages/sisul/page.html?mc=1391",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "다사 강창 파크골프장",
@@ -3892,7 +4416,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260715"
    },
-   "id": "대구다사강창파크골프장"
+   "id": "대구다사강창파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.dssiseol.or.kr/pages/sisul/page.html?mc=1391",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "다사 세천 파크골프장",
@@ -3909,7 +4438,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260715"
    },
-   "id": "대구다사세천파크골프장"
+   "id": "대구다사세천파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.dssiseol.or.kr/pages/sisul/page.html?mc=1391",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "무태파크골프장",
@@ -3926,7 +4460,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260824"
    },
-   "id": "대구무태파크골프장"
+   "id": "대구무태파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.buk.daegu.kr/tour/index.do?menu_id=00004261",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "불로파크골프장",
@@ -3937,6 +4476,7 @@
    "lat": 35.90204924191042,
    "lng": 128.6284540374987,
    "phone": "053-803-8324",
+   "reservationUrl": "https://dgpg.daegu.go.kr/parkgolf/main",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "대구광역시_파크골프장",
@@ -3944,7 +4484,17 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250305"
    },
-   "id": "대구불로파크골프장"
+   "id": "대구불로파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 화요일 08:00 예약 오픈(2주 단위, 대구시 파크골프 예약시스템)",
+    "weekday": 2,
+    "time": "08:00"
+   },
+   "bookingSource": {
+    "url": "https://dgpg.daegu.go.kr/parkgolf/board/detail?cd=donggu_109",
+    "date": "2026-01-27"
+   }
   },
   {
    "name": "비산파크골프장",
@@ -3979,7 +4529,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260715"
    },
-   "id": "대구옥포파크골프장"
+   "id": "대구옥포파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.dssiseol.or.kr/pages/sisul/page.html?mc=1391",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "유가 한정 파크골프장",
@@ -3996,7 +4551,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260715"
    },
-   "id": "대구유가한정파크골프장"
+   "id": "대구유가한정파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.dssiseol.or.kr/pages/sisul/page.html?mc=1391",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "현풍 원오 파크골프장",
@@ -4013,7 +4573,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260715"
    },
-   "id": "대구현풍원오파크골프장"
+   "id": "대구현풍원오파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.dssiseol.or.kr/pages/sisul/page.html?mc=1391",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "화원 진천천 파크골프장",
@@ -4030,7 +4595,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260715"
    },
-   "id": "대구화원진천천파크골프장"
+   "id": "대구화원진천천파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.dssiseol.or.kr/pages/sisul/page.html?mc=1391",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "그라운드 파크골프장",
@@ -4055,6 +4625,7 @@
    "city": "서구",
    "lat": 36.36975808974982,
    "lng": 127.39372157305638,
+   "reservationUrl": "https://www.djsiseol.or.kr/res/www/245",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "대전광역시 공식 누리집",
@@ -4062,7 +4633,16 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": null
    },
-   "id": "대전유등천파크골프장"
+   "id": "대전유등천파크골프장",
+   "booking": "walkin",
+   "bookingOpen": {
+    "text": "관내 선착순, 관외는 이용일 4주 전~2일 전 인터넷 예약",
+    "daysBefore": 28
+   },
+   "bookingSource": {
+    "url": "https://www.djsiseol.or.kr/res/www/245",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "강변파크골프장",
@@ -4142,7 +4722,15 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": null
    },
-   "id": "부산대저생태공원파크골프장"
+   "id": "부산대저생태공원파크골프장",
+   "booking": "walkin",
+   "bookingOpen": {
+    "text": "예약 없음 — 9홀마다 선착순 대기 입장(일출~일몰)"
+   },
+   "bookingSource": {
+    "url": "https://www.busan.go.kr/parkgolf/parkgolf03",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "반송파크골프장",
@@ -4238,7 +4826,15 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": null
    },
-   "id": "부산삼락생태공원파크골프장"
+   "id": "부산삼락생태공원파크골프장",
+   "booking": "walkin",
+   "bookingOpen": {
+    "text": "예약 없음 — 9홀마다 선착순 대기 입장(일출~일몰)"
+   },
+   "bookingSource": {
+    "url": "https://www.busan.go.kr/parkgolf/parkgolf01",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "수영강파크골프장",
@@ -4362,6 +4958,7 @@
    "fee": "예약제",
    "hours": "08:00 ~ 17:00",
    "closed": "매주 월요일, 1월1일,설날추석당일",
+   "reservationUrl": "https://reserve.busan.go.kr/rent/view?resveGroupSn=535&progrmSn=588",
    "coordSource": "official_page",
    "source": {
     "title": "부산광역시 부산 파크골프 누리집",
@@ -4369,7 +4966,16 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": null
    },
-   "id": "부산해운대수목원파크골프장"
+   "id": "부산해운대수목원파크골프장",
+   "booking": "lottery",
+   "bookingOpen": {
+    "text": "이용일 7일 전까지 온라인 추첨 신청(부산시 통합예약), 현장 추첨 별도",
+    "daysBefore": 7
+   },
+   "bookingSource": {
+    "url": "https://reserve.busan.go.kr/rent/view?resveGroupSn=535&progrmSn=588",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "화명생태공원 파크골프장",
@@ -4389,7 +4995,15 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": null
    },
-   "id": "부산화명생태공원파크골프장"
+   "id": "부산화명생태공원파크골프장",
+   "booking": "walkin",
+   "bookingOpen": {
+    "text": "예약 없음 — 9홀마다 선착순 대기 입장(일출~일몰)"
+   },
+   "bookingSource": {
+    "url": "https://www.busan.go.kr/parkgolf/parkgolf02",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "강남탄천파크골프장",
@@ -4402,7 +5016,7 @@
    "hours": "09:00~18:00",
    "closed": "월요일, 법정공휴일(기상상황에 따라 탄력운영)",
    "reservation": "전화, 방문, 온라인",
-   "reservationUrl": "http://life.gangnam.go.kr",
+   "reservationUrl": "https://life.gangnam.go.kr/",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -4410,7 +5024,15 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-04-28"
    },
-   "id": "서울강남탄천파크골프장"
+   "id": "서울강남탄천파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 중순 09:00 다음 달분 온라인 수시대관 신청(1차 강남구민·성남시민 → 2차 강남 직장인·학생 → 3차 누구나); 9·10월분은 8/18·9/18 1차 시작"
+   },
+   "bookingSource": {
+    "url": "https://life.gangnam.go.kr/fmcs/61?action=read&action-value=b2a3d84f68327336ac49ef2cead792b6",
+    "date": "2026-08-18"
+   }
   },
   {
    "name": "관악파크골프장",
@@ -4424,7 +5046,7 @@
    "hours": "화~일요일 09:00~18:00/1부 09:00~11:00/2부 11:10~13:10/3부 13:20~15:20/4부 15:30~17:30",
    "closed": "매주 월요일/명절연휴 휴장",
    "reservation": "온오프라인 예약",
-   "reservationUrl": "https://booking.gwanakgongdan.or.kr/booking/1515?center=KWAN_AK13&type=1002&part=02&place=102-2015-2759",
+   "reservationUrl": "https://booking.gwanakgongdan.or.kr/booking/1816",
    "coordSource": "dataset",
    "source": {
     "title": "관악구시설관리공단_관악파크골프장 표준데이터",
@@ -4432,7 +5054,17 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260723"
    },
-   "id": "서울관악파크골프장"
+   "id": "서울관악파크골프장",
+   "booking": "lottery",
+   "bookingOpen": {
+    "text": "매월 8일 09:00~17일 18:00 다음 달분 추첨 신청, 18일 10:00 추첨; 잔여분은 이용월 1일 09:00부터 선착순",
+    "day": 8,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://booking.gwanakgongdan.or.kr/booking/1817",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "동작파크골프장",
@@ -4444,6 +5076,7 @@
    "phone": "070-7204-3972",
    "fee": "개인당 4,000원",
    "reservation": "팀단위(3~4명) 1명이 예약가능하며 예약사이트는 서울시공공예약시스템",
+   "reservationUrl": "https://yeyak.seoul.go.kr/web/search/selectPageListDetailSearchImg.do?code=T100&dCode=T115",
    "coordSource": "vworld:road",
    "source": {
     "title": "동작구시설관리공단_파크골프장 표준데이터",
@@ -4451,7 +5084,17 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260720"
    },
-   "id": "서울동작파크골프장"
+   "id": "서울동작파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 수요일 09:00 다음 주(수~일) 예약 오픈 — 동작구민 팀은 월·화 우선 접수",
+    "weekday": 3,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260916175719326495",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "서남물재생센터 파크골프장",
@@ -4460,6 +5103,7 @@
    "holes": 9,
    "lat": 37.57745916017712,
    "lng": 126.82024228844023,
+   "reservationUrl": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S230131090246367142",
    "coordSource": "vworld:road",
    "source": {
     "title": "서울특별시_파크골프장 현황",
@@ -4467,7 +5111,17 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20230508"
    },
-   "id": "서울서남물재생센터파크골프장"
+   "id": "서울서남물재생센터파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "이용일 10일 전 06:00 예약 오픈(서울시 공공서비스예약)",
+    "daysBefore": 10,
+    "time": "06:00"
+   },
+   "bookingSource": {
+    "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S230131090246367142",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "안양천 파크골프장 (구로①)",
@@ -4483,7 +5137,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20230508"
    },
-   "id": "서울안양천파크골프장구로"
+   "id": "서울안양천파크골프장구로",
+   "booking": "reserve",
+   "bookingSource": {
+    "url": "https://www.guro.go.kr/sports/",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "안양천 파크골프장 (양천)",
@@ -4492,6 +5151,7 @@
    "holes": 18,
    "lat": 37.53740761595306,
    "lng": 126.88768743384404,
+   "reservationUrl": "https://www.yangcheon.go.kr/reservation/reservation/ex/reservationCal/View.do?riIdx=RI001678",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "서울특별시_파크골프장 현황",
@@ -4499,7 +5159,17 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20230508"
    },
-   "id": "서울안양천파크골프장양천"
+   "id": "서울안양천파크골프장양천",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "이용일 14일 전 10:00 예약 오픈(~3일 전 17시)",
+    "daysBefore": 14,
+    "time": "10:00"
+   },
+   "bookingSource": {
+    "url": "https://www.yangcheon.go.kr/reservation/reservation/ex/reservationCal/View.do?riIdx=RI001678",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "여의도한강 파크골프장",
@@ -4515,7 +5185,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20230508"
    },
-   "id": "서울여의도한강파크골프장"
+   "id": "서울여의도한강파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://hangang.seoul.go.kr/www/contents/777.do?mid=516",
+    "date": "2026-04-17"
+   }
   },
   {
    "name": "월드컵공원 파크골프장",
@@ -4524,6 +5199,7 @@
    "holes": 18,
    "lat": 37.574353391044895,
    "lng": 126.87333838482824,
+   "reservationUrl": "https://yeyak.seoul.go.kr/web/search/selectPageListDetailSearchImg.do?code=T100&dCode=T115",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "서울특별시_파크골프장 현황",
@@ -4531,7 +5207,16 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20230508"
    },
-   "id": "서울월드컵공원파크골프장"
+   "id": "서울월드컵공원파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "이용기간(약 2주)별로 공지된 날 16:00 예약 오픈(신규 제2구장 17:00)",
+    "time": "16:00"
+   },
+   "bookingSource": {
+    "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260918145650807791",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "잠실운동장 파크골프장",
@@ -4540,6 +5225,7 @@
    "holes": 9,
    "lat": 37.51318300641729,
    "lng": 127.07618409119794,
+   "reservationUrl": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S220325100057463252",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "서울특별시_파크골프장 현황",
@@ -4547,7 +5233,17 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20230508"
    },
-   "id": "서울잠실운동장파크골프장"
+   "id": "서울잠실운동장파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 15일 13:30 다음 달 예약 오픈(~20일 18시)",
+    "day": 15,
+    "time": "13:30"
+   },
+   "bookingSource": {
+    "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S220325100057463252",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "중랑구립파크골프장",
@@ -4569,7 +5265,15 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260716"
    },
-   "id": "서울중랑구립파크골프장"
+   "id": "서울중랑구립파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매주 2주 후 1주(화~일)분 예약: 월요일 09:00 1순위(중랑구민 3명↑ 팀), 화요일 09:00 2순위(구민 2명↑), 수요일부터 누구나(24시간)"
+   },
+   "bookingSource": {
+    "url": "https://parkgolf.jungnangimc.or.kr/page/rent/s01.info.php",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "중랑천 파크골프장",
@@ -4578,6 +5282,7 @@
    "holes": 9,
    "lat": 37.63723774606841,
    "lng": 127.05840655641879,
+   "reservationUrl": "https://www.nowon.kr/www/mlrd/onlineRcept/BD_selectOnlineRceptList.do",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "서울특별시_파크골프장 현황",
@@ -4585,7 +5290,16 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20230508"
    },
-   "id": "서울중랑천파크골프장"
+   "id": "서울중랑천파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 중순(공지된 날) 09:00 다음 달 이용분 예약 접수(노원구청 온라인접수)",
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://www.nowon.kr/www/mlrd/onlineRcept/BD_selectOnlineRcept.do?resveSn=1797",
+    "date": "2026-09-14"
+   }
   },
   {
    "name": "중랑천 파크골프장 (동대문구)",
@@ -4594,6 +5308,7 @@
    "holes": 9,
    "lat": 37.56349836992571,
    "lng": 127.07356185892448,
+   "reservationUrl": "https://www.dfmc.kr:8443/course/sports/fmcs/14",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "서울특별시_파크골프장 현황",
@@ -4601,7 +5316,17 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20230508"
    },
-   "id": "서울중랑천파크골프장동대문구"
+   "id": "서울중랑천파크골프장동대문구",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "매월 25일 09:00 다음 달 예약 오픈(관내 주민·일반은 26일)",
+    "day": 25,
+    "time": "09:00"
+   },
+   "bookingSource": {
+    "url": "https://www.dfmc.kr:8443/course/sports/fmcs/181",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "금강파크골프장",
@@ -4611,6 +5336,7 @@
    "lat": 36.47471745371454,
    "lng": 127.27104972207971,
    "phone": "044-301-3334",
+   "reservationUrl": "https://onestop.sejong.go.kr/Usr/resve/instList.do?fcltClCode=MT_GOLF",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "세종특별자치시_파크골프장 현황",
@@ -4618,7 +5344,16 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250314"
    },
-   "id": "세종금강파크골프장"
+   "id": "세종금강파크골프장",
+   "booking": "walkin",
+   "bookingOpen": {
+    "text": "관외는 통합예약 이용일 7일 전부터(당일 불가), 관내는 현장 선착순",
+    "daysBefore": 7
+   },
+   "bookingSource": {
+    "url": "https://www.sejong.go.kr/bbs/R0071/view.do?nttId=B000000128580Bm3mQ3k",
+    "date": "2025-04-09"
+   }
   },
   {
    "name": "부강파크골프장",
@@ -4703,7 +5438,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250314"
    },
-   "id": "세종중앙공원파크골프장"
+   "id": "세종중앙공원파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.sejong.go.kr/bbs/R0071/view.do?nttId=B000000112520Sc4tY6l",
+    "date": "2024-06-20"
+   }
   },
   {
    "name": "한솔파크골프장",
@@ -4752,7 +5492,12 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": "2026-07-30"
    },
-   "id": "울산범서파크골프장"
+   "id": "울산범서파크골프장",
+   "booking": "member",
+   "bookingSource": {
+    "url": "https://www.uljusports.or.kr/uljusports/reserve/reserve.do?exec=list&currentPage=1&pagePerCount=50",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "쇠평파크골프장",
@@ -4801,7 +5546,7 @@
    "hours": "09:00~18:00",
    "closed": "월, 동절기(1~3월)",
    "reservation": "방문, 인터넷",
-   "reservationUrl": "https://www.insiseol.or.kr/park/songdo/rental/physical.jsp",
+   "reservationUrl": "https://www.insiseol.or.kr/park/songdo/rental/golf.jsp",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -4809,7 +5554,12 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2024-08-18"
    },
-   "id": "인천송도달빛공원인천송도파크골프장"
+   "id": "인천송도달빛공원인천송도파크골프장",
+   "booking": "reserve",
+   "bookingSource": {
+    "url": "https://www.insiseol.or.kr/park/songdo/rental/golf.jsp",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "송도파크골프장",
@@ -4991,6 +5741,7 @@
    "holes": 18,
    "lat": 34.99203814808635,
    "lng": 126.96404804792795,
+   "reservationUrl": "https://www.hwasun.go.kr/hanium/contents.do?S=S03&M=0200000000",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "전남광주통합특별시_파크골프장현황",
@@ -4998,7 +5749,17 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260226"
    },
-   "id": "전남능주파크골프장"
+   "id": "전남능주파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "이용일 7일 전 10시부터 예약(1일 전까지)",
+    "daysBefore": 7,
+    "time": "10:00"
+   },
+   "bookingSource": {
+    "url": "https://www.hwasun.go.kr/hanium/contents.do?S=S03&M=0101000000",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "대상파크골프장",
@@ -5412,7 +6173,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250311"
    },
-   "id": "전남승촌파크골프장"
+   "id": "전남승촌파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.namgu.gwangju.kr/sports/menu.es?mid=a10105000000",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "염주파크골프장",
@@ -5596,6 +6362,7 @@
    "hours": "00:00~23:59",
    "closed": "연중무휴",
    "reservation": "방문, 전화, 홈페이지",
+   "reservationUrl": "https://www.ticketlink.co.kr",
    "coordSource": "dataset",
    "source": {
     "title": "전국공공시설개방정보표준데이터(공유누리)",
@@ -5603,7 +6370,12 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-03-18"
    },
-   "id": "전남함평파크골프장"
+   "id": "전남함평파크골프장",
+   "booking": "reserve",
+   "bookingSource": {
+    "url": "https://www.hampyeong.go.kr/contentsView.do?pageId=www127",
+    "date": "2026-07-10"
+   }
   },
   {
    "name": "혁신도시 파크골프장",
@@ -5630,6 +6402,7 @@
    "holes": 87,
    "lat": 34.92677348538214,
    "lng": 126.98347307821126,
+   "reservationUrl": "https://www.hwasun.go.kr/hanium/contents.do?S=S02&M=0200000000",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "전남광주통합특별시_파크골프장현황",
@@ -5637,7 +6410,17 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260226"
    },
-   "id": "전남화순홍수조절지파크골프장"
+   "id": "전남화순홍수조절지파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "이용일 7일 전 10시부터 예약(1일 전까지)",
+    "daysBefore": 7,
+    "time": "10:00"
+   },
+   "bookingSource": {
+    "url": "https://www.hwasun.go.kr/hanium/contents.do?S=S02&M=0101000000",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "황토클리닉 무안읍 파크골프장",
@@ -5657,7 +6440,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-07-28"
    },
-   "id": "전남황토클리닉무안읍파크골프장"
+   "id": "전남황토클리닉무안읍파크골프장",
+   "booking": "reserve"
   },
   {
    "name": "효령파크골프장",
@@ -5793,7 +6577,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250228"
    },
-   "id": "전북마전파크골프장"
+   "id": "전북마전파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.jeonju.go.kr/planweb/board/view.9is?contentUid=ff8080818990c349018b041a87373953&dataUid=9be517a89b212afa019d93bc592a51de&boardUid=ff8080818990c349018b1dbaa78e4b41",
+    "date": "2026-04-16"
+   }
   },
   {
    "name": "만경강 목천지구 파크골프장",
@@ -5803,6 +6592,7 @@
    "holes": 18,
    "lat": 35.911401638718274,
    "lng": 126.92258029394654,
+   "reservationUrl": "https://www.iksan.go.kr/reserve/index.do?menuUid=ff8080819a383753019a38fd2d6f011b",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "전북특별자치도_파크골프장 현황",
@@ -5810,7 +6600,16 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250228"
    },
-   "id": "전북만경강목천지구파크골프장"
+   "id": "전북만경강목천지구파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "이용일 7일 전부터 온라인 선착순 예약",
+    "daysBefore": 7
+   },
+   "bookingSource": {
+    "url": "https://www.iksan.go.kr/reserve/index.do?menuUid=ff8080819a383753019a38fd2d6f011b",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "봉동 생강골 공원 파크골프장",
@@ -5871,6 +6670,7 @@
    "holes": 18,
    "lat": 36.0885063133621,
    "lng": 126.96871471080595,
+   "reservationUrl": "https://www.iksan.go.kr/reserve/index.do?menuUid=4028a6109b68d728019b68f54d1d00c6",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "전북특별자치도_파크골프장 현황",
@@ -5878,7 +6678,16 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250228"
    },
-   "id": "전북북부권어울림파크골프장장애인겸용"
+   "id": "전북북부권어울림파크골프장장애인겸용",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "이용일 7일 전부터 온라인 선착순 예약",
+    "daysBefore": 7
+   },
+   "bookingSource": {
+    "url": "https://www.iksan.go.kr/reserve/index.do?menuUid=4028a6109b68d728019b68f54d1d00c6",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "비봉생활체육공원 파크골프장",
@@ -6007,6 +6816,7 @@
    "holes": 36,
    "lat": 35.67793077700371,
    "lng": 126.88483345312906,
+   "reservationUrl": "https://spt.jeongeup.go.kr/fmcs/101?center=JEONGEUP03",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "전북특별자치도_파크골프장 현황",
@@ -6014,7 +6824,15 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250228"
    },
-   "id": "전북신태인파크골프장"
+   "id": "전북신태인파크골프장",
+   "booking": "walkin",
+   "bookingOpen": {
+    "text": "정읍시민 예약 없이 이용, 관외는 이용 1일 전까지 온라인 예약"
+   },
+   "bookingSource": {
+    "url": "https://spt.jeongeup.go.kr/fmcs/13",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "안천 파크골프장",
@@ -6048,7 +6866,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250228"
    },
-   "id": "전북온고을파크골프장"
+   "id": "전북온고을파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.jeonju.go.kr/planweb/board/view.9is?contentUid=ff8080818990c349018b041a87373953&dataUid=9be517a89b212afa019d93bc592a51de&boardUid=ff8080818990c349018b1dbaa78e4b41",
+    "date": "2026-04-16"
+   }
   },
   {
    "name": "유등 파크골프장",
@@ -6143,6 +6966,7 @@
    "holes": 18,
    "lat": 35.913983001922844,
    "lng": 126.84518159945277,
+   "reservationUrl": "https://www.gimje.go.kr/reserve/index.gimje?menuCd=DOM_000001802004000000&ifacSid=IFAC_000000000000037",
    "coordSource": "vworld:place",
    "source": {
     "title": "전북특별자치도_파크골프장 현황",
@@ -6150,7 +6974,16 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20250228"
    },
-   "id": "전북청하파크골프장"
+   "id": "전북청하파크골프장",
+   "booking": "walkin",
+   "bookingOpen": {
+    "text": "김제시민 예약 없이 입장, 관외는 이용일 21일 전~2일 전 온라인 예약",
+    "daysBefore": 21
+   },
+   "bookingSource": {
+    "url": "https://www.gimje.go.kr/reserve/index.gimje?menuCd=DOM_000001802004000000&ifacSid=IFAC_000000000000037",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "강창학체육공원 강창학파크골프장",
@@ -6247,7 +7080,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2025-04-10"
    },
-   "id": "제주제주생활체육공원파크골프장"
+   "id": "제주제주생활체육공원파크골프장",
+   "booking": "walkin"
   },
   {
    "name": "칠십리 파크골프장",
@@ -6338,7 +7172,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-06-30"
    },
-   "id": "충남광천파크골프장"
+   "id": "충남광천파크골프장",
+   "booking": "reserve"
   },
   {
    "name": "대천파크골프장",
@@ -6373,7 +7208,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-06-08"
    },
-   "id": "충남백마강파크골프장"
+   "id": "충남백마강파크골프장",
+   "booking": "reserve"
   },
   {
    "name": "보령파크골프장",
@@ -6465,6 +7301,7 @@
    "lng": 126.9447687,
    "phone": "041-940-4880",
    "reservation": "인터넷예약",
+   "reservationUrl": "https://parkcall.kr/r/wangjinnaru",
    "coordSource": "dataset",
    "source": {
     "title": "충청남도_청양군_공공체육시설현황",
@@ -6472,7 +7309,12 @@
     "license": "공공데이터포털(공공누리 출처표시)",
     "date": "20260602"
    },
-   "id": "충남왕진나루파크골프장"
+   "id": "충남왕진나루파크골프장",
+   "booking": "reserve",
+   "bookingSource": {
+    "url": "https://www.cheongyang.go.kr/kor/sub05_05_04.do",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "유관순파크골프장",
@@ -6521,7 +7363,12 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": "2026-09-30"
    },
-   "id": "충남태안군생활체육공원제1파크골프장"
+   "id": "충남태안군생활체육공원제1파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.taean.go.kr/tour/sub04_09_03.do",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "태안군생활체육공원 제2파크골프장",
@@ -6537,7 +7384,12 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": "2026-09-30"
    },
-   "id": "충남태안군생활체육공원제2파크골프장"
+   "id": "충남태안군생활체육공원제2파크골프장",
+   "booking": "walkin",
+   "bookingSource": {
+    "url": "https://www.taean.go.kr/tour/sub04_09_03.do",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "풍서천파크골프장",
@@ -6591,7 +7443,8 @@
     "license": "공공데이터포털 표준데이터(공공데이터법, 이용 제한 없음)",
     "date": "2026-06-30"
    },
-   "id": "충남홍성파크골프장"
+   "id": "충남홍성파크골프장",
+   "booking": "reserve"
   },
   {
    "name": "괴산 파크골프장",
@@ -6757,6 +7610,7 @@
    "holes": 45,
    "lat": 36.69248704981288,
    "lng": 127.50448782297974,
+   "reservationUrl": "https://www.chungbuk.go.kr/parkgolf/reservation/",
    "coordSource": "vworld:parcel",
    "source": {
     "title": "충청북도 공식 누리집",
@@ -6764,7 +7618,16 @@
     "license": "공식 누리집 공개 정보(사실 정보)",
     "date": null
    },
-   "id": "충북충북도립파크골프장"
+   "id": "충북충북도립파크골프장",
+   "booking": "reserve",
+   "bookingOpen": {
+    "text": "1주일 앞까지 하루씩 오픈(당일 예약 가능)",
+    "daysBefore": 7
+   },
+   "bookingSource": {
+    "url": "https://www.chungbuk.go.kr/parkgolf/reservation/reservation/visitor/reservation.do",
+    "date": "2026-09-30"
+   }
   },
   {
    "name": "충주호 파크골프장",
@@ -6781,6 +7644,598 @@
     "date": "2026-07"
    },
    "id": "충북충주호파크골프장"
+  }
+ ],
+ "unlocated": [
+  {
+   "name": "솔터파크골프장",
+   "address": "경기도 김포시 마산동·장기동 일원",
+   "region": "경기",
+   "city": "김포시",
+   "holes": 18,
+   "source": {
+    "title": "경기도 공식 누리집",
+    "url": "https://www.gimpo.go.kr/news/selectBbsNttView.do?key=9377&bbsNo=466&nttNo=988854",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-09-04"
+   },
+   "id": "nocoord-경기솔터파크골프장"
+  },
+  {
+   "name": "오산시 제1호 파크골프장",
+   "address": "경기도 오산시 가수동 1호 근린공원",
+   "region": "경기",
+   "city": "오산시",
+   "holes": 9,
+   "source": {
+    "title": "경기도 공식 누리집",
+    "url": "http://ostv.osan.go.kr/ostv/cast/viewer/board.do?key=47c8e038eb168a4eace9687f3f68df9df1f9c83edc8e75df5192d2522be05247db8930ecb365ab63",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": null
+   },
+   "id": "nocoord-경기오산시제1호파크골프장"
+  },
+  {
+   "name": "포천한여울파크골프장",
+   "region": "경기",
+   "city": "포천시",
+   "source": {
+    "title": "경기도 공식 누리집",
+    "url": "https://share.gg.go.kr/sports?pageStep=sports&searchType=S1",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-09-30"
+   },
+   "id": "nocoord-경기포천한여울파크골프장"
+  },
+  {
+   "name": "가은 청솔공원 파크골프장",
+   "address": "경상북도 문경시 가은읍 성저리",
+   "region": "경북",
+   "city": "문경시",
+   "holes": 9,
+   "source": {
+    "title": "경상북도_파크골프장 현황",
+    "url": "https://www.data.go.kr/data/15142265/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20250310"
+   },
+   "id": "nocoord-경북가은청솔공원파크골프장"
+  },
+  {
+   "name": "김천파크골프장",
+   "address": "경상북도 김천시 지좌동 140-1일원",
+   "region": "경북",
+   "city": "김천시",
+   "holes": 27,
+   "source": {
+    "title": "경상북도_파크골프장 현황",
+    "url": "https://www.data.go.kr/data/15142265/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20250310"
+   },
+   "id": "nocoord-경북김천파크골프장"
+  },
+  {
+   "name": "삼지연파크골프장",
+   "address": "경상북도 영양군 영양읍 삼지리 270번지 일원",
+   "region": "경북",
+   "city": "영양군",
+   "holes": 18,
+   "source": {
+    "title": "경상북도_파크골프장 현황",
+    "url": "https://www.data.go.kr/data/15142265/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20250310"
+   },
+   "id": "nocoord-경북삼지연파크골프장"
+  },
+  {
+   "name": "성주호파크골프장",
+   "address": "경상북도 성주군 금수면 후평리 4-1번지 일원",
+   "region": "경북",
+   "city": "성주군",
+   "holes": 18,
+   "source": {
+    "title": "경상북도_파크골프장 현황",
+    "url": "https://www.data.go.kr/data/15142265/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20250310"
+   },
+   "id": "nocoord-경북성주호파크골프장"
+  },
+  {
+   "name": "갑천 파크골프장 1구장",
+   "address": "유성구 탑립동 184-4번지 일원",
+   "region": "대전",
+   "city": "유성구",
+   "source": {
+    "title": "대전광역시 공식 누리집",
+    "url": "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=7970",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": null
+   },
+   "id": "nocoord-대전갑천파크골프장1구장"
+  },
+  {
+   "name": "갑천 파크골프장 2구장",
+   "address": "유성구 용산동 51-2(용신교 상류)",
+   "region": "대전",
+   "city": "유성구",
+   "holes": 18,
+   "source": {
+    "title": "대전광역시 공식 누리집",
+    "url": "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=7970",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": null
+   },
+   "id": "nocoord-대전갑천파크골프장2구장"
+  },
+  {
+   "name": "상도역 파크골프스테이션",
+   "address": "동작 상도역 지하1층 역사내",
+   "region": "서울",
+   "holes": 3,
+   "phone": "070-7204-3974",
+   "fee": "개인당 4,000원",
+   "reservation": "팀단위(3~4명) 1명이 예약가능하며 예약사이트는 서울시공공예약시스템",
+   "reservationUrl": "https://yeyak.seoul.go.kr",
+   "source": {
+    "title": "동작구시설관리공단_파크골프장 표준데이터",
+    "url": "https://www.data.go.kr/data/15160419/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20260720"
+   },
+   "id": "nocoord-서울상도역파크골프스테이션",
+   "booking": "reserve"
+  },
+  {
+   "name": "안양천 파크골프장 (구로②)",
+   "address": "고척교~양천구 경계구간",
+   "region": "서울",
+   "holes": 18,
+   "source": {
+    "title": "서울특별시_파크골프장 현황",
+    "url": "https://www.data.go.kr/data/15113672/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20230508"
+   },
+   "id": "nocoord-서울안양천파크골프장구로"
+  },
+  {
+   "name": "안양천 파크골프장 (금천)",
+   "address": "금천교 ~ 철산교 사이",
+   "region": "서울",
+   "holes": 18,
+   "source": {
+    "title": "서울특별시_파크골프장 현황",
+    "url": "https://www.data.go.kr/data/15113672/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20230508"
+   },
+   "id": "nocoord-서울안양천파크골프장금천"
+  },
+  {
+   "name": "울산대공원파크골프장",
+   "region": "울산",
+   "holes": 18,
+   "source": {
+    "title": "울산광역시 공식 누리집",
+    "url": "https://www.ulsan.go.kr/u/culture/contents.ulsan?mId=001005001000000000",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07-30"
+   },
+   "id": "nocoord-울산울산대공원파크골프장"
+  },
+  {
+   "name": "진장파크골프장",
+   "region": "울산",
+   "city": "북구",
+   "holes": 24,
+   "source": {
+    "title": "울산광역시 공식 누리집",
+    "url": "https://www.ulsan.go.kr/u/culture/contents.ulsan?mId=001005001000000000",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07-30"
+   },
+   "id": "nocoord-울산진장파크골프장"
+  },
+  {
+   "name": "청량파크골프장",
+   "region": "울산",
+   "city": "울주군",
+   "holes": 18,
+   "source": {
+    "title": "울산광역시 공식 누리집",
+    "url": "https://www.ulsan.go.kr/u/culture/contents.ulsan?mId=001005001000000000",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07-30"
+   },
+   "id": "nocoord-울산청량파크골프장"
+  },
+  {
+   "name": "태화강파크골프장",
+   "region": "울산",
+   "city": "남구",
+   "holes": 36,
+   "source": {
+    "title": "울산광역시 공식 누리집",
+    "url": "https://www.ulsan.go.kr/u/culture/contents.ulsan?mId=001005001000000000",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07-30"
+   },
+   "id": "nocoord-울산태화강파크골프장"
+  },
+  {
+   "name": "공촌유수지체육시설파크골프장",
+   "address": "서구 청라동 6-23(공촌유수지 내)",
+   "region": "인천",
+   "holes": 18,
+   "phone": "032-473-8307",
+   "source": {
+    "title": "인천광역시_파크골프장 현황",
+    "url": "https://www.data.go.kr/data/15142271/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20250310"
+   },
+   "id": "nocoord-인천공촌유수지체육시설파크골프장"
+  },
+  {
+   "name": "고금테마공원파크골프장",
+   "address": "전라남도 완도군 고금면 농산리 759-1",
+   "region": "전남",
+   "city": "완도군",
+   "holes": 9,
+   "source": {
+    "title": "전남광주통합특별시_파크골프장현황",
+    "url": "https://www.data.go.kr/data/15142153/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20260226"
+   },
+   "id": "nocoord-전남고금테마공원파크골프장"
+  },
+  {
+   "name": "무안 파크골프장",
+   "address": "전라남도 무안군 무안읍 성동리 1086-3",
+   "region": "전남",
+   "city": "무안군",
+   "holes": 18,
+   "source": {
+    "title": "전남광주통합특별시_파크골프장현황",
+    "url": "https://www.data.go.kr/data/15142153/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20260226"
+   },
+   "id": "nocoord-전남무안파크골프장"
+  },
+  {
+   "name": "보성체육공원 파크골프장",
+   "address": "전라남도 보성군 보성읍 능문길 18번지",
+   "region": "전남",
+   "city": "보성군",
+   "holes": 9,
+   "source": {
+    "title": "전남광주통합특별시_파크골프장현황",
+    "url": "https://www.data.go.kr/data/15142153/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20260226"
+   },
+   "id": "nocoord-전남보성체육공원파크골프장"
+  },
+  {
+   "name": "복내 파크골프장",
+   "address": "전라남도 보성군 복내리 536-16",
+   "region": "전남",
+   "city": "보성군",
+   "holes": 18,
+   "source": {
+    "title": "전남광주통합특별시_파크골프장현황",
+    "url": "https://www.data.go.kr/data/15142153/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20260226"
+   },
+   "id": "nocoord-전남복내파크골프장"
+  },
+  {
+   "name": "해룡 파크골프장",
+   "address": "전라남도 순천시 해룡면 선월리 8932",
+   "region": "전남",
+   "city": "순천시",
+   "holes": 18,
+   "source": {
+    "title": "전남광주통합특별시_파크골프장현황",
+    "url": "https://www.data.go.kr/data/15142153/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20260226"
+   },
+   "id": "nocoord-전남해룡파크골프장"
+  },
+  {
+   "name": "춘향골 파크골프장",
+   "address": "전북특별자치도 남원시 춘향골 체육공원내",
+   "region": "전북",
+   "city": "남원시",
+   "holes": 18,
+   "source": {
+    "title": "전북특별자치도_파크골프장 현황",
+    "url": "https://www.data.go.kr/data/15142226/fileData.do",
+    "license": "공공데이터포털(공공누리 출처표시)",
+    "date": "20250228"
+   },
+   "id": "nocoord-전북춘향골파크골프장"
+  },
+  {
+   "name": "서천어울림파크골프장",
+   "address": "충청남도 서천군 화양면 망월리 일원",
+   "region": "충남",
+   "city": "서천군",
+   "holes": 36,
+   "source": {
+    "title": "충청남도 공식 누리집",
+    "url": "https://www.seocheon.go.kr/kor/sub06_08_05_04.do",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-09-30"
+   },
+   "id": "nocoord-충남서천어울림파크골프장"
+  },
+  {
+   "name": "노은 파크골프장",
+   "region": "충북",
+   "city": "충주시",
+   "holes": 9,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북노은파크골프장"
+  },
+  {
+   "name": "단양 파크골프장",
+   "region": "충북",
+   "city": "단양군",
+   "holes": 36,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북단양파크골프장"
+  },
+  {
+   "name": "무심천 장애인 파크골프장",
+   "region": "충북",
+   "city": "청주시",
+   "holes": 18,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북무심천장애인파크골프장"
+  },
+  {
+   "name": "미호천 파크골프장",
+   "region": "충북",
+   "city": "청주시",
+   "holes": 46,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북미호천파크골프장"
+  },
+  {
+   "name": "보강천 파크골프장",
+   "region": "충북",
+   "city": "증평군",
+   "holes": 9,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북보강천파크골프장"
+  },
+  {
+   "name": "보은 파크골프장",
+   "region": "충북",
+   "city": "보은군",
+   "holes": 36,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북보은파크골프장"
+  },
+  {
+   "name": "송호관광지 파크골프장",
+   "region": "충북",
+   "city": "영동군",
+   "holes": 18,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북송호관광지파크골프장"
+  },
+  {
+   "name": "앙성 파크골프장",
+   "region": "충북",
+   "city": "충주시",
+   "holes": 9,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북앙성파크골프장"
+  },
+  {
+   "name": "오송 파크골프장",
+   "region": "충북",
+   "city": "청주시",
+   "holes": 36,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북오송파크골프장"
+  },
+  {
+   "name": "오송호수공원 파크골프장",
+   "region": "충북",
+   "city": "청주시",
+   "holes": 9,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북오송호수공원파크골프장"
+  },
+  {
+   "name": "용산 송담 파크골프장",
+   "region": "충북",
+   "city": "영동군",
+   "holes": 27,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북용산송담파크골프장"
+  },
+  {
+   "name": "음성 파크골프장",
+   "region": "충북",
+   "city": "음성군",
+   "holes": 18,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북음성파크골프장"
+  },
+  {
+   "name": "장애인 파크골프장",
+   "region": "충북",
+   "city": "충주시",
+   "holes": 9,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북장애인파크골프장"
+  },
+  {
+   "name": "정용 파크골프장",
+   "region": "충북",
+   "city": "괴산군",
+   "holes": 9,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북정용파크골프장"
+  },
+  {
+   "name": "증평 파크골프장",
+   "region": "충북",
+   "city": "증평군",
+   "holes": 9,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북증평파크골프장"
+  },
+  {
+   "name": "청천 파크골프장",
+   "region": "충북",
+   "city": "괴산군",
+   "holes": 5,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북청천파크골프장"
+  },
+  {
+   "name": "청풍호파크골프장",
+   "region": "충북",
+   "city": "제천시",
+   "holes": 54,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북청풍호파크골프장"
+  },
+  {
+   "name": "초평생활체육공원 파크골프장",
+   "region": "충북",
+   "city": "진천군",
+   "holes": 9,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북초평생활체육공원파크골프장"
+  },
+  {
+   "name": "추풍령 급수탑공원 파크골프장",
+   "region": "충북",
+   "city": "영동군",
+   "holes": 9,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북추풍령급수탑공원파크골프장"
+  },
+  {
+   "name": "호미골체육공원 파크골프장",
+   "region": "충북",
+   "city": "청주시",
+   "holes": 9,
+   "source": {
+    "title": "충청북도 공식 누리집",
+    "url": "https://www.chungbuk.go.kr/www/contents.do?key=4543",
+    "license": "공식 누리집 공개 정보(사실 정보)",
+    "date": "2026-07"
+   },
+   "id": "nocoord-충북호미골체육공원파크골프장"
   }
  ]
 }

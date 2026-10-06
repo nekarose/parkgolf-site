@@ -6,5 +6,5 @@
   "interstitial_grace_rounds": 3,
   "interstitial_every_rounds": 3,
   "nearby_search_radius_km": 30,
-  "courses_version": "2026-09-30"
+  "courses_version": "2026-10-01"
 }
