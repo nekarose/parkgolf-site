@@ -1,10 +1,11 @@
 {
-  "latest_version": "0.1.0+1",
+  "latest_version": "1.1.0+3",
   "min_supported_version": "0.1.0",
-  "update_message": "",
-  "update_message_en": "",
+  "update_message": "점수판이 빨라졌어요. \"모두 파\" 한 번으로 같은 홀을 채우고, 4명 이상이면 한 조가 한 화면에 들어와요. 결과는 그림 한 장으로 단톡방에 보낼 수 있고, 지도에서 구장 이름으로 찾을 수 있어요.",
+  "update_message_en": "Faster scorecard: \"All par\" fills the hole for everyone, and four or more players fit on one screen. Share results as an image, and find courses by name on the map.",
   "interstitial_grace_rounds": 3,
   "interstitial_every_rounds": 3,
   "nearby_search_radius_km": 30,
-  "courses_version": "2026-10-01"
+  "courses_version": "2026-10-01",
+  "ios_store_url": "https://apps.apple.com/app/id6817724680"
 }
