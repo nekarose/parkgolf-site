@@ -1,8 +1,8 @@
 {
-  "latest_version": "1.3.0+5",
+  "latest_version": "1.3.1+6",
   "min_supported_version": "0.1.0",
-  "update_message": "티타임 알림이 생겼어요. 예약을 등록해 두면 전날 저녁 8시와 2시간 전에 알려 드려요. 예약 오픈 알림은 10분·30분·1시간·하루 전 중에 고를 수 있어요.",
-  "update_message_en": "Tee-time reminders are here: register a booking and we'll remind you at 8 PM the day before and 2 hours before. You can also choose when booking-open alerts arrive — 10 min, 30 min, 1 hour, or a day ahead.",
+  "update_message": "알림을 누르면 그 구장 안내가 바로 열려 예약하기를 누를 수 있어요. 티타임 알림(전날 저녁·2시간 전)과 예약 오픈 알림 시점 고르기도 들어 있어요.",
+  "update_message_en": "Tap a notification to open that course right away and book. Also includes tee-time reminders (the evening before and 2 hours before) and a choice of when booking-open alerts arrive.",
   "interstitial_grace_rounds": 3,
   "interstitial_every_rounds": 3,
   "nearby_search_radius_km": 30,
